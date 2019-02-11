@@ -4,7 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<title> Instagram | Ekenedilichukwu Samuel  </title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<!--<link href="fontawesome-free-5.7.1-web/css/all.min.css" rel="stylesheet"> -->
 	<link rel="stylesheet" type="text/css" href="css/custom.css" />
     <script type="text/javascript" src="js/respond.js"></script>
 </head>
@@ -15,35 +18,45 @@
 				<div class="col-4">
 					<ul class="nav justify-content-start">
 						<li class="nav-item">
-						   <a class="nav-link" href="#"> <img src="images/logo.png" width="30" height="30" alt="" class="img-thumbnail img-fluid mt-2"> </a>
-						</li> &nbsp
+						   <a class="nav-link" href="#"> <i class="fab fa-instagram fa-lg" id="fa-inst"></i> </a>
+						</li> 
 						<li class="nav-item">
-						   <a class="nav-link" href="#"> <img src="images/slash.png" width="19" height="37" alt="" class="img-thumbnail img-fluid"> </a>
-						</li> &nbsp
+						   <a class="nav-link" href="#"> <img src="images/slash.png" width="7" height="33" alt="" class="img-fluid" > </a>
+						</li> 
 						<li class="nav-item">
-						   <a class="nav-link" href="#"> <img src="images/name.png" width="141" height="38" alt="" class=" img-thumbnail img-fluid"> </a>
-						   <!-- there is no way to input the font used for the heading ( that is BILLABONG). so, I use image -->
+						   <a class="nav-link" href="#"> <img src="images/name.png" alt="" width="133" height="39" class="img-fluid" >  </a>
 						</li>
 					</ul>
+
 				</div>
 				<div class="col-4 ">
 					<form class="form-inline my-2 my-lg-0 justify-content-center">
-					    <input class="form-control mt-3 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 					</form>
 				</div>
 				<div class="col-4">
 					<ul class="nav justify-content-end">
 						<li class="nav-item">
-						   <a class="nav-link" href="#"> <img src="images/nav.png" width="30" height="30" alt="" class=" img-thumbnail img-fluid mt-2"></a>
+						   <a class="nav-link" href="#">
+						   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-compass"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+						   </svg>
+						   </a>
 						</li>
 						<li class="nav-item">
-						   <a class="nav-link" href="#"> <img src="images/heart.png" width="30" height="30" alt="" class="img-thumbnail img-fluid mt-2"> </a>
+						   <a class="nav-link" href="#"> 
+						   	<svg id="i-heart" viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                            <path d="M4 16 C1 12 2 6 7 4 12 2 15 6 16 8 17 6 21 2 26 4 31 6 31 12 28 16 25 20 16 28 16 28 16 28 7 20 4 16 Z" />
+							</svg> 
+							</a>
 						</li>
 						<li class="nav-item">
-						   <a class="nav-link" href="#"> <img src="images/human.png" width="58" height="39" alt="" class="img-thumbnail img-fluid mt-1"> </a>
+						   <a class="nav-link" href="#">
+						   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle>
+						   </svg>
+    					   </a>
 						</li>  
 					</ul>
-				</div>
+				</div>	
 			</div>
 		</div>
 		<div class="container-fluid pl-0 pr-0 mt-5" style="background-color: #fafafa">
@@ -54,28 +67,33 @@
 					</div>
 					<div class=" col-md-7 mt-4" >
 						<div class="row">
-							<h2 class="mt-1" style="font-weight: lighter;">ekene_samba</h2> 
+							<h3 class="mt-1 ml-3" style="font-weight: 300">ekene_samba</h3> 
 						
-							<button type="button" class="btn btn-outline-secondary btn-sm ml-4 mt-3" style="width: 100px; height: 30px;">
+							<button type="button" class="btn  btn-link btn-sm ml-3 mt-2" style="width: 100px; height: 30px; border: 1px solid #ced4da; font-weight: 600;">
 							   <span> Edit Profile </span>
 							</button>
 
-							 <a class="nav-link" href="#"> <img src="images/sett.png" width="50" height="50" alt="" class="img-thumbnail img-fluid"> </a>
+							 <a class="nav-link" href="#">
+							 <svg id="i-settings" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+							 <path d="M13 2 L13 6 11 7 8 4 4 8 7 11 6 13 2 13 2 19 6 19 7 21 4 24 8 28 11 25 13 26 13 30 19 30 19 26 21 25 24 28 28 24 25 21 26 19 30 19 30 13 26 13 25 11 28 8 24 4 21 7 19 6 19 2 Z" />
+							 <circle cx="16" cy="16" r="4" />
+							</svg>
+							</a>
 
 						</div> 
 						 
-						<button type="button" class="btn btn-outline-secondary btn-sm " disabled style="border: none;">
-						 <span> 3 Posts </span>
+						<button type="button" class="btn btn-link btn-sm pl-0 " disabled >
+						 <span> 3 Posts</span>
 						</button>
-						<button type="button" class="btn btn-outline-secondary btn-sm ml-3" style="border: none;">
+						<button type="button" class="btn btn-link btn-sm ml-3 " >
 						 <span> 265 followers </span>
 						</button>
-						<button type="button" class="btn btn-outline-secondary btn-sm ml-3"  style="border: none;">
+						<button type="button" class="btn btn-link btn-sm ml-3">
 						 <span> 606 following </span>
 						</button>
 						
 						<h6 class="mt-4"><strong> Ekenedilichukwu Anolue </strong> </h6>
-						<p> A Student of University of Benin </p>
+						<p> A student of university of Benin. </p>
 					
 					</div>
 				</div>
@@ -84,49 +102,59 @@
 			<div class="row_middle">
 				<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
 					  <li class="nav-item">
-					    <a class="nav-link active" id="posts-tab" data-toggle="tab" href="#posts" role="tab" aria-controls="home" aria-selected="true"><img src="images/nav.png" width="30" height="30" alt="" class=" img-thumbnail img-fluid"> POSTS </a>
-					    <!-- i think am suppose to use Icons for most of the images which i used. but the reason is that am not yet clear with the use of Icon for now -->
-					  </li>
+					    <a class="nav-link active" id="posts-tab" data-toggle="tab" href="#posts" role="tab" aria-controls="home" aria-selected="true"><svg class="i-calendar" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+            			<path d="M2 6 L2 30 30 30 30 6 Z M2 15 L30 15 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9" />
+       				    </svg> POSTS </a>
+					  </li>  &nbsp &nbsp
 					  <li class="nav-item">
-					    <a class="nav-link" id="igtv-tab" data-toggle="tab" href="#igtv" role="tab" aria-controls="profile" aria-selected="false"> <img src="images/nav.png" width="30" height="30" alt="" class=" img-thumbnail img-fluid"> IGTV</a>
-					  </li>
+					    <a class="nav-link" id="igtv-tab" data-toggle="tab" href="#igtv" role="tab" aria-controls="profile" aria-selected="false">
+					   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tv"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline>
+					   </svg> IGTV</a>
+					  </li> &nbsp &nbsp
 					  <li class="nav-item">
-					    <a class="nav-link" id="saved-tab" data-toggle="tab" href="#saved" role="tab" aria-controls="contact" aria-selected="false"> <img src="images/nav.png" width="30" height="30" alt="" class=" img-thumbnail img-fluid">SAVED</a>
-					  </li>
+					    <a class="nav-link" id="saved-tab" data-toggle="tab" href="#saved" role="tab" aria-controls="contact" aria-selected="false"> <svg class="i-bookmark" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                        <path d="M6 2 L26 2 26 30 16 20 6 30 Z" />
+                        </svg> SAVED</a>
+					  </li> &nbsp &nbsp
 					   <li class="nav-item">
-					    <a class="nav-link" id="tagged-tab" data-toggle="tab" href="#tagged" role="tab" aria-controls="contact" aria-selected="false"> <img src="images/nav.png" width="30" height="30" alt="" class=" img-thumbnail img-fluid"> TAGGED</a>
+					    <a class="nav-link" id="tagged-tab" data-toggle="tab" href="#tagged" role="tab" aria-controls="contact" aria-selected="false"> 
+						<svg class="i-tag" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+          			    <circle cx="24" cy="8" r="2" />
+          			    <path d="M2 18 L18 2 30 2 30 14 14 30 Z" />
+       				    </svg> TAGGED</a>
 					  </li>
 				</ul>
 				<div class="tab-content" id="myTabContent">
 				    <div class="tab-pane fade show active" id="posts" role="tabpanel" aria-labelledby="posts-tab">
 					  	<div class="row no-gutters">
-				    	<div class="col-4 img-thumbnail">
-				    		<img src="images/a.jpg" alt="" class="img-fluid">
-				    	</div>
-				    	<div class="col-4">
-				    		<img src="images/b.jpg" alt="" class="img-fluid">
-				    	</div>
-				    	<div class="col-4">
-				    		<img src="images/c.jpg" alt="" class="img-fluid">
-				    	</div>
+					    	<div class="col-4 img-thumbnail">
+					    		<img src="images/a.jpg" alt="" width="300" height="400" class="img-fluid">
+					    	</div>
+					    	<div class="col-4">
+					    		<img src="images/b.jpg" alt="" width="300" height="400" class="img-fluid">
+					    	</div>
+					    	<div class="col-4">
+					    		<img src="images/c.jpg" alt="" width="400" height="300" class="img-fluid">
+					    	</div>
+					    </div>
 			        </div>
-				</div>
-				<div class="tab-pane fade" id="igtv" role="tabpanel" aria-labelledby="igtv-tab">
-					
+					<div class="tab-pane fade" id="igtv" role="tabpanel" aria-labelledby="igtv-tab">
+						
+		
+					</div>
+					<div class="tab-pane fade" id="saved" role="tabpanel" aria-labelledby="saved-tab">
+						
+					    
+				    </div>
+				    <div class="tab-pane fade" id="tagged" role="tabpanel" aria-labelledby="tagged-tab">
+						
 				    </div>
 				</div>
-				<div class="tab-pane fade" id="saved" role="tabpanel" aria-labelledby="saved-tab">
-					
-				    </div>
-			    </div>
-			    <div class="tab-pane fade" id="tagged" role="tabpanel" aria-labelledby="tagged-tab">
-					
-			    </div>
 			</div>
 	
 			<div class="row no-gutters row_bottom">
-				<div class="col-md-10 text-left">
-					<ul class="nav justify-content-start">
+				<div class="col-md-10">
+					<ul class="nav justify-content-start" id="footer_list">
 						<li class="nav-item">
 						   <a class="nav-link" href="#"> ABOUT US</a>
 						</li>
@@ -170,9 +198,8 @@
 	</div>
 
 
-<!-- JavaScript  -->
-<!-- am not sure if this javascript is meant for this bootstrap version that I used -->
-	<script type="text/javascript" src="http://code.jquerry.com/jquerry-latest.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
